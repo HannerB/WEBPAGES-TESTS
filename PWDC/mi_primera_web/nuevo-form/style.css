@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: 0;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px green solid;
+    box-shadow: 2px 0px 2px 1px green;
+    background-color: #ffffff;
+}   
+
+header a{
+    color: black;
+    padding-bottom: 10px;
+}
+.navlist ul{
+    padding-top: 20px;
+    display: flex;
+    gap: 1.5em;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: 50px 200px 100px 200px ;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.375);
+    border-radius: 5px;
+    background-color: rgba(207, 207, 207, 0.38);
+}
+
+.conts{
+    margin: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2px 0px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.select-div{
+    margin-left: 20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+.table-container{
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0px rgb(0, 0, 0);
+    border: 1px black;
+    margin: 50px 200px 100px 200px ;
+}
+
+tr{
+    display: flex;
+    gap: 10em;
+    padding: 10px 10px 10px 10px;
+}
+
+thead{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px;
+    box-shadow: 0 0 2px 0px rgb(0, 0, 0);
+}
+
+select{
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0px rgb(0, 0, 0);
+    border: 1px;
+    color: gray;
+}
+button{
+    font-weight: bold;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px;
+    color: #ffffff;
+    background-color: green;
+    cursor: pointer;
+}
+
+label{
+    margin: 5px;
+    display: block;
+    border: 1px;
+}
