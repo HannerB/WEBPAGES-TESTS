@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 115px;
+    border-bottom: 2px rgb(79, 79, 254) solid;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    max-width: 1000px;
+    /* border: 1px black solid; */
+}
+
+h3,
+h2,
+.navlist ul li a {
+    color: rgb(79, 79, 254);
+}
+
+h3 {
+    padding: 20px 0 0 20px;
+    font-weight: 600;
+}
+
+select {
+    border: 0.1 rgb(255, 251, 251) solid;
+    color: gray;
+    padding: 5px;
+}
+
+button {
+    border: rgb(79, 79, 254) solid;
+    border-radius: 5px;
+    background-color: rgb(79, 79, 254);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    padding: 5px;
+}
+
+input {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border: #ffffff;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.navlist select {
+    color: rgb(79, 79, 254);
+    border: none;
+    font-size: 12px;
+    width: 150px;
+}
+
+
+.navlist ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    /* border-bottom: 1px black solid; */
+
+}
+
+.container-2 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: rgb(255, 255, 255) solid;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 50px;
+}
+
+.datos {
+    font-family: arial, sans serif;
+    font-size: small;
+    margin: 20px;
+}
+
+.dato-select {
+    border: #ffffff;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* .form-container {
+    border: black solid;
+} */
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
