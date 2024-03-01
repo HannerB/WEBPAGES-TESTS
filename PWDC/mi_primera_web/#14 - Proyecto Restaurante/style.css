@@ -125,6 +125,10 @@ body{
     background-color: #ee9003;
 }
 
+.btn-add-cart{
+    border-radius: 5px;
+}
+
 .header-img{
     width: 50%;
 }
@@ -546,6 +550,9 @@ footer{
     display: none;
 }
 
+.div-carrito{
+    margin-top: 15px;
+}
 
 
 
